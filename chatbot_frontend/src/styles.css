@@ -1,0 +1,28 @@
+body
+{
+    background-image: url("assets/PIZZA-image.jpg");
+}
+.text
+{
+    margin: 3%;
+}
+.text img
+{
+    border-radius: 43%;
+    opacity: 0.8;
+}
+
+.header
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(241, 226, 226);
+    font-size: 40px;
+    color: rgb(230, 22, 22);
+}
+footer{
+    background-color: rgb(24, 2, 2);
+    color: rgb(233, 212, 212);
+    margin-top:29.5%;
+    text-align: center;
+    padding: 7px;
+}

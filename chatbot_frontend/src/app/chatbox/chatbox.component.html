@@ -1,0 +1,19 @@
+
+<div class="menubar">
+    <div class="image"><img src="/assets/botimage.png" width="70"></div>
+</div> 
+ <div class="box1" #messagediv>
+    <div class="inbox" id="msgboxsection">
+
+    </div> 
+    <div #division>
+        <div class="container"  id="container">
+            <img src="/assets/botimage1.png" alt="chat" style="width:12%;">
+            <p>Welcome To Pizza House... How May I Help You?</p>
+        </div>
+    </div>  
+</div>
+
+<input class="form-control" #box (keyup.enter)="update(box.value)"  (keyup.enter)="box.value=''" id="msginput" type="text" autocomplete="off" placeholder="Type your message....." > 
+    
+
