@@ -1,6 +1,8 @@
 body
 {
     background-image: url("assets/PIZZA-image.jpg");
+    width: 100%;
+    height: auto;
 }
 .text
 {
@@ -8,21 +10,23 @@ body
 }
 .text img
 {
-    border-radius: 43%;
+    border-radius: 50%;
     opacity: 0.8;
 }
 
 .header
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(241, 226, 226);
+    background-color: white;
     font-size: 40px;
     color: rgb(230, 22, 22);
 }
-footer{
-    background-color: rgb(24, 2, 2);
-    color: rgb(233, 212, 212);
-    margin-top:29.5%;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
     text-align: center;
-    padding: 7px;
-}
+ }
